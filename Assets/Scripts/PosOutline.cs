@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 
 public class PosOutline : MonoBehaviour {
+    [ColorUsage(true, true)]
     public Color outlineColor;
 
     [FormerlySerializedAs("outline")] [Range(0.0f, 1.0f)]

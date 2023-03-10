@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab1182f25319e64bb629c9412d54932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineColor: {r: 0, g: 0.9622642, b: 0.28580892, a: 0}
+  outlineColor: {r: 0, g: 5.13089, b: 0.5874786, a: 0}
   outlineWidth: 0.05
 --- !u!65 &32154098
 BoxCollider:
@@ -526,10 +526,10 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 1182652318}
   - {fileID: 113781286}
-  outlineColor: {r: 1, g: 0, b: 0, a: 1}
+  outlineColor: {r: 4, g: 0, b: 0, a: 1}
   downSampleScale: 2
-  blurIterations: 1
-  blurSpread: 0.6
+  blurIterations: 2
+  blurSpread: 1
 --- !u!1 &1182652316
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,5 +739,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab1182f25319e64bb629c9412d54932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineColor: {r: 0, g: 1, b: 0.97979045, a: 1}
+  outlineColor: {r: 0.23541604, g: 2.1484995, b: 7.129739, a: 1}
   outlineWidth: 0.05
